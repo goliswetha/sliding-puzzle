@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SLIDING PUZZLES</title>
+  <style>
+    body {
+      background: lightblue;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+    #mainContainer {
+      text-align: center;
+      background-color: azure;
+      padding: 60px;
+      border-radius: 8px;
+    }
+    h1 {
+      font-size: 1cm;
+    }
+    #enterButton {
+      padding: 10px 20px;
+      font-size: 1.2em;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div id="mainContainer">
+    <h1>Sliding Puzzles</h1>
+    <button id="enterButton" onclick="enterPuzzlePage()">Enter</button>
+  </div>
+
+  <script>
+    function enterPuzzlePage() {
+      window.location.href = 'slidingpuzzles.html';
+    }
+  </script>
+</body>
+</html>
